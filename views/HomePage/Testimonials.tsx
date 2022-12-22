@@ -10,30 +10,51 @@ import { media } from 'utils/media';
 
 const TESTIMONIALS = [
   {
-    companyLogoUrl: '/testimonials/company-logo-1.svg',
-    content: `Really good. I am so pleased with this product. I didn't even need training.`,
+    content: `Oldukça iyi bir hizmet aldım. Gayet memnun kaldım.`,
     author: {
-      name: 'Clyde Edwards',
-      title: 'Very Serious Man',
-      avatarUrl: '/testimonials/author-photo-1.jpeg',
+      name: 'Onur Dindar',
+      title: 'Danışan',
+      avatarUrl: '/testimonials/onur.png',
     },
   },
   {
-    companyLogoUrl: '/testimonials/company-logo-2.svg',
-    content: `It's really wonderful. I use saas product often. Thank You! Saas product has really helped our business.`,
+    content: `Genel olarak aldığım hizmetle beraber 10 kg zayıfladım. Diyetim oldukça yapabilmeme uygun. Özetle harika bir deneyim!`,
     author: {
-      name: 'Jimmy Hunter',
-      title: 'Sigma Male University Graduate',
-      avatarUrl: '/testimonials/author-photo-2.jpeg',
+      name: 'Birsen Berki',
+      title: 'Danışan',
+      avatarUrl: '/testimonials/birsenberki.png',
     },
   },
   {
-    companyLogoUrl: '/testimonials/company-logo-3.svg',
-    content: `Since I invested in saas product I made over 100,000 dollars profits. It really saves me time and effort. saas product is exactly what our business has been lacking.`,
+    content: `Uzunca bir zamandır kilo almak istiyordum. Bildiğiniz üzere kilo insanın hayat standartları üzerinde oldukça önemli bir etkisi var. Birçok diyetisyenle çalıştım ancak en memnun kaldığım Zişan hanım oldu!`,
     author: {
-      name: 'Marjorie Morgan',
-      title: 'Chief Chad Officer',
-      avatarUrl: '/testimonials/author-photo-3.jpeg',
+      name: 'Rabia Alca',
+      title: 'Danışan',
+      avatarUrl: '/testimonials/rabiaalca.png',
+    },
+  },
+  {
+    content: `Sporcu diyetim için destek aldım. Yaptığım antremanlara destek olan bu program ile kütle kazanımım oldukça hızlandı.`,
+    author: {
+      name: 'Barkın Angın',
+      title: 'Danışan',
+      avatarUrl: '/testimonials/barkinangin.png',
+    },
+  },
+  {
+    content: `Okulda giderken, çeşitli öğünlere ulaşmam oldukça zordu. Ancak beraber çalışarak kendime en uygun proramı bulduk. Bu sayede programıma uymam kolaylaştı. Harika bir diyetisyen kesinlikle öneriyorum.`,
+    author: {
+      name: 'Nimet Beriş',
+      title: 'Danışan',
+      avatarUrl: '/testimonials/nimetberis.png',
+    },
+  },
+  {
+    content: `İş hayatımda kilo vermek oldukça zordu. Ancak Zişan hanımla beraber çalışarak istediğim ideal kiloma düştük. Herşey için teşekkürler!`,
+    author: {
+      name: 'Merve Taşan',
+      title: 'Danışan',
+      avatarUrl: '/testimonials/mervetasan.png',
     },
   },
 ];
@@ -47,12 +68,7 @@ export default function Testimonials() {
           {TESTIMONIALS.map((singleTestimonial, idx) => (
             <SwiperSlide key={idx}>
               <TestimonialCard>
-                <NextImage
-                  src={singleTestimonial.companyLogoUrl}
-                  alt={`${singleTestimonial.author.name}'s company logo`}
-                  width={200}
-                  height={40}
-                />
+               
                 <Content>“{singleTestimonial.content}”</Content>
                 <AuthorContainer>
                   <AuthorImageContainer>

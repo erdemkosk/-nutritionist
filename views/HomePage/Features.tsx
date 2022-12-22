@@ -7,55 +7,55 @@ import { media } from 'utils/media';
 
 const FEATURES = [
   {
-    imageUrl: '/grid-icons/asset-1.svg',
+    imageUrl: '/grid-icons/1.svg',
     title: 'Lorem ipsum dolor sit amet.',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
   },
   {
-    imageUrl: '/grid-icons/asset-2.svg',
+    imageUrl: '/grid-icons/undraw_appreciation_re_lxn5.svg',
     title: 'Lorem ipsum dolor sit amet.',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
   },
   {
-    imageUrl: '/grid-icons/asset-3.svg',
+    imageUrl: '/grid-icons/undraw_cookie_love_re_lsjh.svg',
     title: 'Lorem ipsum dolor sit amet.',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
   },
   {
-    imageUrl: '/grid-icons/asset-4.svg',
+    imageUrl: '/grid-icons/undraw_cooking_re_a12t.svg',
     title: 'Lorem ipsum dolor sit amet.',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
   },
   {
-    imageUrl: '/grid-icons/asset-5.svg',
+    imageUrl: '/grid-icons/undraw_hamburger_re_7sfy.svg',
     title: 'Lorem ipsum dolor sit amet.',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
   },
   {
-    imageUrl: '/grid-icons/asset-6.svg',
+    imageUrl: '/grid-icons/undraw_join_re_w1lh.svg',
     title: 'Lorem ipsum dolor sit amet.',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
   },
   {
-    imageUrl: '/grid-icons/asset-7.svg',
+    imageUrl: '/grid-icons/undraw_healthy_habit_re_xelk.svg',
     title: 'Lorem ipsum dolor sit amet.',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
   },
   {
-    imageUrl: '/grid-icons/asset-8.svg',
+    imageUrl: '/grid-icons/undraw_healthy_lifestyle_re_ifwg.svg',
     title: 'Lorem ipsum dolor sit amet.',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
   },
   {
-    imageUrl: '/grid-icons/asset-9.svg',
+    imageUrl: '/grid-icons/undraw_upgrade_re_gano.svg',
     title: 'Lorem ipsum dolor sit amet.',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',

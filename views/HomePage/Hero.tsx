@@ -15,18 +15,19 @@ export default function Hero() {
     <HeroWrapper>
       <Contents>
         <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <Heading>Gelin birlikte hayat kalitemizi arttıralım...</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+        Bugüne kadar çok sayıda kişiyi ideal kilosuna ve sağlığına kavuşturduk.
+Kişisel hedefleriniz ve sağlığınız için, farklı diyet programlarımızı seçebilirsiniz.
+          
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+           E-mail bültenime abone ol! <span>&rarr;</span>
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
-              Features <span>&rarr;</span>
+              Neler Yapıyorum <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>
